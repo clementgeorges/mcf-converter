@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "superseed.mcf-converter",
+  "name": "MCF Converter",
+  "version": "1.1.0",
+  "author": "Superseed Studio",
+  "license": "MIT",
+  "description": "px/rem, fluid typography clamp(), metric/imperial measures and currency converter for the Omarchy bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "MCF Converter",
+    "category": "Tools",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
